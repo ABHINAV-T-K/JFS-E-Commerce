@@ -1,84 +1,62 @@
-# ShopPro - E-commerce Marketing Website
+# Marketing Website
 
-A professional e-commerce marketing website built with React, featuring modern design, smooth animations, and responsive layout.
+A modern e-commerce marketing website built with React featuring product showcase and shopping cart functionality.
 
 ## Features
 
-- **Modern Design**: Clean, professional interface with subtle animations
-- **Responsive Layout**: Works perfectly on desktop, tablet, and mobile devices
-- **Complete Pages**: Home, Products, About, Contact, Login, and Sign Up
-- **Smooth Animations**: Fade-in, slide-in, and scale animations for better UX
-- **Professional Styling**: Gradient backgrounds, hover effects, and modern typography
-
-## Pages Included
-
-1. **Home**: Hero section with featured products and key features
-2. **Products**: Product catalog with categories and filtering
-3. **About**: Company story, mission, vision, and values
-4. **Contact**: Contact form, business information, and FAQ
-5. **Login**: User authentication with social login options
-6. **Sign Up**: User registration with form validation
+- Interactive product catalog
+- Shopping cart with add/remove items
+- Responsive design for all devices
+- Smooth animations and transitions
+- Clean, professional UI
 
 ## Getting Started
 
 ### Prerequisites
-- Node.js (version 14 or higher)
-- npm or yarn
+- Node.js (version 14+)
+- npm
 
 ### Installation
 
-1. Install dependencies:
-```bash
+bash
+# Clone the repository
+git clone <your-repo-url>
+cd my-app
+
+# Install dependencies
 npm install
-```
 
-2. Start the development server:
-```bash
+# Start development server
 npm start
-```
 
-3. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view the website.
 
-### Build for Production
+## Scripts
 
-```bash
-npm run build
-```
+- `npm start` - Development server
+- `npm run build` - Production build
+- `npm test` - Run tests
 
 ## Project Structure
 
-```
-src/
-├── components/
-│   ├── Header.js
-│   └── Footer.js
-├── pages/
-│   ├── Home.js
-│   ├── About.js
-│   ├── Products.js
-│   ├── Contact.js
-│   ├── Login.js
-│   └── SignUp.js
-├── App.js
-├── App.css
-└── index.js
-```
+- `index.html` - Main page
+- `cart.html` - Shopping cart page
+- `script.js` - Core functionality
+- `cart-page.js` - Cart logic
+- `styles.css` - Styling
 
 ## Technologies Used
 
 - React 18
 - React Router DOM
-- CSS3 with animations
-- Responsive design
-- Modern JavaScript (ES6+)
+- HTML5/CSS3
+- JavaScript ES6+
+- Responsive CSS Grid/Flexbox
 
-## Customization
+## Contributing
 
-- Update colors in `App.css` by modifying CSS variables
-- Add your own product images and content
-- Customize animations by adjusting CSS keyframes
-- Modify the color scheme and branding to match your business
-
-## License
-
-This project is open source and available under the MIT License.
+1. Fork the project
+2. Create feature branch
+3. Commit changes
+4. Push to branch
+5. Open Pull Request
